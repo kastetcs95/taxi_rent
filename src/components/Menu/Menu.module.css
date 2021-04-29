@@ -1,0 +1,17 @@
+.menu__links {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.menu__link {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px 25px;
+}
+
+.menu__link.active {
+    background-color: #e0b004;
+}
+

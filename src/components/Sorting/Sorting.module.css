@@ -1,0 +1,28 @@
+select {
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.sorting__item {
+    padding-top: 10px;
+}
+
+.add__btn {
+    width: 100%;
+    background-color: #e0b004;
+    border-radius: 25px;
+    border: none;
+    color: #252729;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.add__btn:hover {
+    background-color: #000;
+    color: white;
+}
+
+.add__btn:active {
+    outline: none;
+}

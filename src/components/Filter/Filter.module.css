@@ -1,0 +1,38 @@
+.filter__item {
+    padding-top: 10px;
+    width: 100%;
+}
+
+[data-input="filterInput"] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius:10px;
+}
+
+.add__btn {
+    width: 100%;
+    background-color: #e0b004;
+    border-radius: 25px;
+    border: none;
+    color:  #252729;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.add__btn:hover {
+    background-color: #000;
+    color: white;
+}
+
+.add__btn:active {
+    outline: none;
+}
+
+.filter__input {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius:10px;
+}

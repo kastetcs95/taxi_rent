@@ -1,0 +1,45 @@
+.rent__item_popup {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: rgba(78, 78, 78, 0.411);
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.rent__item_popup.active {
+    display: none;
+}
+
+.rent__item {
+    position: fixed;
+    padding: 30px;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    background-color: #252729;
+    color: #fff;
+    z-index: 1000;
+}
+
+.rent__btn {
+    margin-top: 30px;
+    width: 100%;
+    background-color: #e0b004;
+    border-radius: 25px;
+    border: none;
+    color: #252729;
+    font-size: 20px;
+}
+
+.rent__btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.rent__btn:active {
+    outline: none;
+}

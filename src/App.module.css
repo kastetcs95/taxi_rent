@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body, html {
+    margin: 0;
+}
+
+input {
+    font-size: 17px;
+}
+
+select {
+    font-size: 18px;
+}
+
+.app {
+    font-family: 'Roboto', sans-serif;;
+    box-sizing: border-box;
+    background-color: #1b1d1f;
+    min-height: calc(100vh);
+}
+
+.home {
+    padding-top: 100px;
+}

@@ -1,0 +1,28 @@
+{
+  "rents": [
+    {
+      "brand": "Audi",
+      "model": "A4",
+      "rentalPrice": "60",
+      "phone": "+375444876566",
+      "name": "Mike",
+      "id": "W32EIwP"
+    },
+    {
+      "brand": "Skoda",
+      "model": "Octavia",
+      "rentalPrice": "45",
+      "phone": "+375444876454",
+      "name": "Дмитрий",
+      "id": "D4FaMLj"
+    },
+    {
+      "brand": "Opel",
+      "model": "Zafira",
+      "rentalPrice": "30",
+      "phone": "+375293837474",
+      "name": "Катя",
+      "id": "-VpvCOF"
+    }
+  ]
+}

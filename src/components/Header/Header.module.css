@@ -1,0 +1,23 @@
+.header {
+    height: 100px;
+    width: 100vw;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 10;
+    box-shadow: 0 5px 5px -5px rgb(32, 32, 32);
+}
+
+.header__logo {
+    background-color: #e0b004;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    color: #333;
+    font-size:50px;
+    padding: 0 20px;
+    align-self: center;
+}
