@@ -1,7 +1,8 @@
 .sidebar {
     background-color: #252729;
     width: 325px;
-    height: calc(100vh - 100px);
+    /* height: calc(100vh - 100px); */
+    min-height: calc(100vh - 100px);
     flex: none;
     color: white;
     position: relative;

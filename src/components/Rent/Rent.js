@@ -14,13 +14,15 @@ const Rent = (props) => {
 
     return (
         <div className={styles.rent__item}>
+          <div className={styles.rent__descr}>
             <div>
-                {rent.brand} {rent.model}
-              </div>
+              {rent.brand} {rent.model}
+            </div>
               
-              <div>
-                <span>Rent per day:</span> {rent.rentalPrice} BYN
-              </div>
+            <div>
+              <span>Rent per day:</span> {rent.rentalPrice} BYN
+            </div>
+          </div>
               <div className={styles.rent__btn_block}>
                 <button onClick={onShowChoosedRent} className={styles.rent__btn}>Show</button>
                 </div>

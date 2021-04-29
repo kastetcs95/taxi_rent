@@ -2,6 +2,8 @@
 
 body, html {
     margin: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 input {
@@ -16,7 +18,7 @@ select {
     font-family: 'Roboto', sans-serif;;
     box-sizing: border-box;
     background-color: #1b1d1f;
-    min-height: calc(100vh);
+    min-height: 100vh;
 }
 
 .home {
